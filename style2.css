@@ -1,0 +1,56 @@
+.images {
+    position: relative;
+    width: 50%;
+}
+.tablet-container {
+    position: relative; /* Ensures overlay stays inside */
+    display:inline-block;
+}
+.tablet-overlay {
+    position: absolute;
+    top: 73%;  /* Centers vertically */
+    left: 81%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Adjusts positioning */
+    overflow: visible;
+    text-align: center;
+    color: white;
+    width: 90%; /* Adjust width */
+    height: 85%;
+    background: linear-gradient(185deg, #528ae3, #160d62); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 3;
+    padding-top: 95px;
+}
+.gradient-text {
+    background: linear-gradient(90deg, #ff3366, #589FEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.gradient-text2 {
+    background: linear-gradient(90deg, #FFC600, #6a50ec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.tablet-overlay p {
+    font-size: 14px;
+    margin-top: 30px;
+    opacity: 0.6;
+}
+.tablet-front {
+    position: relative;
+    width: 320px;
+    left: 100px;
+    top: 110px;
+    z-index: 2;
+}
+.tablet-back {
+    position: relative;
+    width: 320px;
+    right: 30px;
+    top: -90px;
+    z-index: 1;
+    background:url("images/A4\ -\ 8\ 1.png")center no-repeat;}
